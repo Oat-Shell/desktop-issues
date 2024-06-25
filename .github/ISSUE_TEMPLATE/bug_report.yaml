@@ -15,7 +15,6 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
 
@@ -24,8 +23,7 @@ body:
     attributes:
       label: Steps to Reproduce
       description: How can we reproduce the issue?
-      placeholder: Tell us how to reproduce the issue!
-      value: "1. Do this\n2. Do that\n3. See the bug!"
+      placeholder: "1. Do this\n2. Do that\n3. See the bug!"
     validations:
       required: true
 
@@ -35,7 +33,6 @@ body:
       label: Version
       description: What version of Oat are you using?
       placeholder: 0.1.0
-      value: 0.1.0
     validations:
       required: true
 
@@ -45,7 +42,6 @@ body:
       label: Computer Information
       description: What operating system are you using?
       placeholder: MacOS, Windows, Linux, etc.
-      value: MacOS, Windows, Linux, etc.
     validations:
       required: true
 
@@ -55,7 +51,6 @@ body:
       label: Additional Information
       description: Anything else you want to add?
       placeholder: Tell us more!
-      value: "I have more information!"
     validations:
       required: false
 
