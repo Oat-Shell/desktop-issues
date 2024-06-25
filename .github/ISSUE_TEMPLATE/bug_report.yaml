@@ -8,6 +8,7 @@ body:
     attributes:
       value: |
         Please fill out the sections below to help us diagnose and fix the issue.
+
   - type: textarea
     id: what-happened
     attributes:
@@ -15,16 +16,6 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
-    validations:
-      required: true
-
-  - type: input
-    id: version
-    attributes:
-      label: Version
-      description: What version of Oat are you using?
-      placeholder: 0.1.0
-      value: 0.1.0
     validations:
       required: true
 
