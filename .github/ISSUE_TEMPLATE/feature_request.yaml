@@ -19,6 +19,16 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How would you use this feature?
+      placeholder: Tell us how you would use this feature!
+      value: "I would use this feature to..."
+    validations:
+      required: true
+
   - type: input
     id: version
     attributes:
@@ -36,16 +46,6 @@ body:
       description: What operating system are you using?
       placeholder: MacOS, Windows, Linux, etc.
       value: MacOS, Windows, Linux, etc.
-    validations:
-      required: true
-
-  - type: textarea
-    id: use-case
-    attributes:
-      label: Use Case
-      description: How would you use this feature?
-      placeholder: Tell us how you would use this feature!
-      value: "I would use this feature to..."
     validations:
       required: true
 

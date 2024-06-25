@@ -19,6 +19,16 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+      placeholder: Tell us how to reproduce the issue!
+      value: "1. Do this\n2. Do that\n3. See the bug!"
+    validations:
+      required: true
+
   - type: input
     id: version
     attributes:
@@ -36,16 +46,6 @@ body:
       description: What operating system are you using?
       placeholder: MacOS, Windows, Linux, etc.
       value: MacOS, Windows, Linux, etc.
-    validations:
-      required: true
-
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to Reproduce
-      description: How can we reproduce the issue?
-      placeholder: Tell us how to reproduce the issue!
-      value: "1. Do this\n2. Do that\n3. See the bug!"
     validations:
       required: true
 
