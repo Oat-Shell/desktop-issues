@@ -40,8 +40,8 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of Oat are you using?
-      placeholder: 0.1.0
+      description: What version of Oat are you using? (`oat --version`)
+      placeholder: 1.0.0+1
     validations:
       required: true
 
