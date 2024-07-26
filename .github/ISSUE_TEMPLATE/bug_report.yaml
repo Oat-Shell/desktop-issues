@@ -9,6 +9,15 @@ body:
       value: |
         Please fill out the sections below to help us diagnose and fix the issue.
 
+  - type: checkboxes
+    attributes:
+      label: Bug Report Checklist
+      description: |
+        Please check the following before submitting your bug report:
+      options:
+        - label: I have searched the existing issues to ensure this is not a duplicate
+          required: true
+
   - type: textarea
     id: what-happened
     attributes:
