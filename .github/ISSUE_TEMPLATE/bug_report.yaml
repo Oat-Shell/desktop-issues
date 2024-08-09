@@ -9,6 +9,15 @@ body:
       value: |
         Please fill out the sections below to help us diagnose and fix the issue.
 
+  - type: input
+    id: account-id
+    attributes:
+      label: Account ID
+      description: What is your account id? (`oat --account-id`)
+      placeholder: 2ypvdloe2z3bjrb
+    validations:
+      required: true
+
   - type: checkboxes
     attributes:
       label: Bug Report Checklist
